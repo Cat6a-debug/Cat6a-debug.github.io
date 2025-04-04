@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    font-family: Impact;
+    font-size: 50px;
+    font-weight: normal;
+}
+p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+}
+button {
+    display: block;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#meme {
+    display: none;
+    margin: auto;
+}
+#meme2 {
+    display: none;
+    margin: auto;
+}
