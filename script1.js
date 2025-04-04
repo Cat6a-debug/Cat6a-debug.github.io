@@ -18,12 +18,12 @@ function showmeme() {
         document.getElementById('button').innerHTML = "<strong>STOP IT!</strong>";
     }
     if (clicks>=65) {
-        document.getElementById('button').remove();
         var btn1 = document.createElement("button");
         btn1.innerHTML = "HA! I'M DOWN HERE NOW!";
         btn1.id = 'button2';
         btn1.onclick('showmeme2()');
         document.body.append(btn1);
+        document.getElementById('button').remove();
     }
     var clicksound = new Audio('click.mp3')
     clicksound.play()
